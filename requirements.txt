@@ -1,0 +1,23 @@
+# Core application (all offline)
+streamlit
+pandas
+numpy
+scipy
+h5py
+
+# Development / testing
+pytest
+
+# Only for the "Experimental: CT images" tab:
+torch
+torchvision
+pydicom
+# only if your DICOMs are compressed (JPEG / JPEG2000):
+# pylibjpeg
+# pylibjpeg-libjpeg
+# pylibjpeg-openjpeg
+
+# Optional hardware / communication hooks (never required, never faked):
+#   ecg_device.py   -> connect()/read()/disconnect() for a real ECG device
+#   sms_gateway.py  -> send_doctor_alert(event) -> {"ok": bool, "confirmed": bool, "detail": str}
+#                      (e.g. SIM800L 2G modem driver; 2G service must be available)

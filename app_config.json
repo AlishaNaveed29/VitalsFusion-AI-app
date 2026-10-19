@@ -1,0 +1,23 @@
+{
+  "high_risk_threshold": 0.85,
+  "emergency_service_number": "1122",
+  "emergency_service_label": "Local emergency number (Lahore/Pakistan prototype: 1122)",
+  "session_absolute_ttl_minutes": 240,
+  "session_idle_ttl_minutes": 60,
+  "max_failed_logins": 5,
+  "lockout_minutes": 15,
+  "min_password_length": 8,
+  "thr_watch": 0.5,
+  "thr_alert": 0.8,
+  "step_per_ct_level": 0.05,
+  "min_threshold": 0.1,
+  "k_required": 2,
+  "n_windows": 3,
+  "local_notification_enabled": true,
+  "remote_channel": null,
+  "sms_gateway_module": "sms_gateway",
+  "offline_mode": "auto",
+  "db_path": "vitalsfusion.db",
+  "ecg_model_filename": "ecg_lead2_mi_model_v2.keras.zip",
+  "ct_image_model_path": "models/ResNet18_2.5D_best.pt"
+}
